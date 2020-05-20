@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "Random Cat",
+        "description": "The app displays random cat images",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#randomcat-Display",
+        "navigationComponentName": "ovly.random-cat",
+        "intentSemanticObject": "random-cat",
+        "intentAction": "Display",
+        "html5ApplicationName": "randomcat",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "cbf04059-495b-4477-b73c-07c3612769c9"
+        ],
+        "contentPackages": [
+            "985cff4f-6948-43a0-a233-b932d1073255"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Random Cat",
+        "subtitle": "The app displays random cat images.",
+        "searchKeywords": "Random Cat,The app displays random cat images.",
+        "displayIconUrl": "sap-icon://image-viewer",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

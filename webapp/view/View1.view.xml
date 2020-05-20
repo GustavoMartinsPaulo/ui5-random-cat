@@ -1,0 +1,31 @@
+<mvc:View controllerName="ovly.random-cat.controller.View1" xmlns:semantic="sap.m.semantic" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<SplitContainer>
+			<masterPages>
+			<semantic:MasterPage showFooter="true" title="Random Cat List">
+				<List id="list" includeItemInSelection="false">
+					<items id="list-items">
+						
+					</items>
+				</List>
+				<semantic:customFooterContent>
+					<Button type="Reject" icon="sap-icon://delete" press="onDeletePress" />
+				</semantic:customFooterContent>
+				<semantic:addAction>
+					<semantic:AddAction press="onAddPress" />
+				</semantic:addAction>
+			</semantic:MasterPage>
+			</masterPages> 
+			
+			<detailPages>
+			<semantic:DetailPage showFooter="false" id="detail-page" title="">
+				<HBox justifyContent="Center">
+					<Image width="300px" id="image-container">
+						
+					</Image>
+				</HBox>
+			</semantic:DetailPage>
+			</detailPages>
+		</SplitContainer>
+	</Shell>
+</mvc:View>
